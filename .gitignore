@@ -1,0 +1,109 @@
+# Environment Variables - NEVER COMMIT THESE!
+.env
+.env.*
+!.env.example
+!.env.docker.example
+*.env
+env.json
+.environment
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.next/
+out/
+server/public
+
+# Development
+vite.config.ts.*
+*.tar.gz
+
+# Virtual environments
+venv/
+env/
+.venv/
+path/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Backup files
+*.bak
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Memory and session files (demo/test runtime data)
+demo_memory/
+memory/
+**/demo_memory/
+**/inferno_demo.json
+
+# AWS credentials and keys
+.aws/
+aws-config.json
+*.pem
+*.key
+!*.pub
+
+# Secrets and sensitive data
+secrets/
+*.secret
+config/local.json
+.secrets/
+
+# HIPAA Compliance - Additional security
+audit-logs/
+patient-data/
+phi-backups/
+encryption-keys/
+*.p12
+*.pfx
+*ai.txt
